@@ -44,6 +44,8 @@ NVIDIA-Linux-x86_64-535.129.03.run
 
 found that pytorch with CUDA11.70(current) is forward-compatible, better to install correct torch.
 
-`pip3 install -U torch==1.13.0+cu117 torchtext==0.14.0 --extra-index-url https://download.pytorch.org/whl/cu117`
+`pip3 install -U torch==1.13.0+cu117 --extra-index-url https://download.pytorch.org/whl/cu117`
 
 Then run `pip -r requirements` for other dependencies.
+
+Install this after installing `ipykernel`
