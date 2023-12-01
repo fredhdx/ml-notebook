@@ -1,4 +1,4 @@
-# Setup Paperspace Instance for prefixtuning
+# Setup Paperspace Instance for PyTorch
 
 
 ## Set up
@@ -49,3 +49,10 @@ found that pytorch with CUDA11.70(current) is forward-compatible, better to inst
 Then run `pip -r requirements` for other dependencies.
 
 Install this after installing `ipykernel`
+
+### Install ipykernel
+
+1. activate your conda env
+2. `conda install -c anaconda ipykernel`
+3. `python -m ipykernel install --user --name=firstEnv`
+4. Install other python packages including torch...
